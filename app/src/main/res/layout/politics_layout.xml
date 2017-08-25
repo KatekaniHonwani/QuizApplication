@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="31dp"
+            android:text="time"
+            android:textColor="@android:color/holo_red_dark" />
+
+        <TextView
+            android:id="@+id/question1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:text="1. Was Julius Malema the ANCYL president at some point?" />
+
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:id="@+id/radioGroup1"
+            android:layout_alignParentStart="true">
+
+            <RadioButton
+                android:id="@+id/rbAnswerQ1a"
+                android:layout_width="142dp"
+                android:layout_height="wrap_content"
+                android:text="True" />
+
+            <RadioButton
+                android:id="@+id/rbAnswerQ1b"
+                android:layout_width="178dp"
+                android:layout_height="wrap_content"
+                android:text="False" />
+        </RadioGroup>
+
+
+        <TextView
+            android:id="@+id/question2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:text=" 2.Gwede Mantashe is the new minister of police?" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:id="@+id/radioGroup2"
+            android:layout_alignParentStart="true">
+
+            <RadioButton
+                android:id="@+id/rbAnswerQ2a"
+                android:layout_width="142dp"
+                android:layout_height="wrap_content"
+                android:text="True" />
+
+            <RadioButton
+                android:id="@+id/rbAnswerQ2b"
+                android:layout_width="178dp"
+                android:layout_height="wrap_content"
+                android:text="False" />
+
+        </RadioGroup>
+
+
+        <TextView
+            android:id="@+id/question3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:text="3. Cabinet rshuffle was done by president Cyril Ramaphosa ? " />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:id="@+id/radioGroup3"
+            android:layout_alignParentStart="true">
+
+            <RadioButton
+                android:id="@+id/rbAnswerQ3a"
+                android:layout_width="142dp"
+                android:layout_height="wrap_content"
+                android:text="True" />
+
+            <RadioButton
+                android:id="@+id/rbAnswerQ3b"
+                android:layout_width="178dp"
+                android:layout_height="wrap_content"
+                android:text="False" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:text="4. Was Nelson Mandela a Clerk when he was arrested? " />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:id="@+id/radioGroup4"
+            android:layout_alignParentStart="true">
+
+            <RadioButton
+                android:id="@+id/rbAnswerQ4a"
+                android:layout_width="142dp"
+                android:layout_height="wrap_content"
+                android:text="True" />
+
+            <RadioButton
+                android:id="@+id/rbAnswerQ4b"
+                android:layout_width="178dp"
+                android:layout_height="wrap_content"
+                android:text="False" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:text="5.The president is allowed to stay in office in accordance to the constitution for 3 terms(15 Years)? " />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:id="@+id/radioGroup5"
+            android:layout_below="@+id/question3"
+            android:layout_alignParentStart="true">
+
+            <RadioButton
+                android:id="@+id/rbAnswerQ5a"
+                android:layout_width="142dp"
+                android:layout_height="wrap_content"
+                android:text="True" />
+
+            <RadioButton
+                android:id="@+id/rbAnswerQ5b"
+                android:layout_width="178dp"
+                android:layout_height="wrap_content"
+                android:text="False"/>
+
+        </RadioGroup>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Submit"
+            android:onClick="politicsAnswer"/>
+
+    </LinearLayout>
+
+</ScrollView>
+

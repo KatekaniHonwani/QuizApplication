@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.codetribestudent.application2quiz.QuestionActivity"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="31dp"
+            android:text="time"
+            android:textColor="@android:color/holo_red_dark"/>
+        <TextView
+            android:id="@+id/question1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="1dp"
+            android:text="1. Who became the first footballer to score 100 english premier league goals ?" />
+
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:id="@+id/radioGroup"
+            android:layout_below="@+id/question1"
+            android:layout_alignParentStart="true">
+
+            <RadioButton
+                android:id="@+id/rbAnswerQ1a"
+                android:layout_width="142dp"
+                android:layout_height="wrap_content"
+                android:text=" Trevor Francis" />
+
+            <RadioButton
+                android:id="@+id/rbAnswerQ1b"
+                android:layout_width="178dp"
+                android:layout_height="wrap_content"
+                android:text="Alan Shearer" />
+
+            <RadioButton
+                android:id="@+id/rbAnswerQ1c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Lionel Messi" />
+
+        </RadioGroup>
+
+
+        <TextView
+            android:id="@+id/question2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="1dp"
+            android:text="2. Which country hosted the 2010 Winter olympics ?" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:id="@+id/radioGroup1"
+            android:layout_below="@+id/question2"
+            android:layout_alignParentStart="true">
+
+            <RadioButton
+                android:id="@+id/rbAnswerQ2a"
+                android:layout_width="142dp"
+                android:layout_height="wrap_content"
+                android:text="New Zealand" />
+
+            <RadioButton
+                android:id="@+id/rbAnswerQ2b"
+                android:layout_width="178dp"
+                android:layout_height="wrap_content"
+                android:text="Canada" />
+
+            <RadioButton
+                android:id="@+id/rbAnswerQ2c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Germany" />
+
+        </RadioGroup>
+
+
+        <TextView
+            android:id="@+id/question3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="1dp"
+            android:text="3. who scored the winning goal in the 2010 world cup? " />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:id="@+id/radioGroup2"
+            android:layout_below="@+id/question3"
+            android:layout_alignParentStart="true">
+
+            <RadioButton
+                android:id="@+id/rbAnswerQ3a"
+                android:layout_width="142dp"
+                android:layout_height="wrap_content"
+                android:text="Chris Froome" />
+
+            <RadioButton
+                android:id="@+id/rbAnswerQ3b"
+                android:layout_width="178dp"
+                android:layout_height="wrap_content"
+                android:text="Lionel Messi" />
+
+            <RadioButton
+                android:id="@+id/rbAnswerQ3c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Andries Iniesta" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="1dp"
+            android:text="4. Which team is represented by a logo of the letter A and a halo?" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:id="@+id/radioGroup3"
+            android:layout_below="@+id/question3"
+            android:layout_alignParentStart="true">
+
+            <RadioButton
+                android:id="@+id/rbAnswerQ4a"
+                android:layout_width="142dp"
+                android:layout_height="wrap_content"
+                android:text=" LA angels of anaheim" />
+
+            <RadioButton
+                android:id="@+id/rbAnswerQ4b"
+                android:layout_width="178dp"
+                android:layout_height="wrap_content"
+                android:text="Washington Nationals" />
+
+            <RadioButton
+                android:id="@+id/rbAnswerQ4c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="LA dodgers" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="1dp"
+            android:text="5. the term 'can of corn ' means easy to what?" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:id="@+id/radioGroup4"
+            android:layout_below="@+id/question3"
+            android:layout_alignParentStart="true">
+
+            <RadioButton
+                android:id="@+id/rbAnswerQ5a"
+                android:layout_width="142dp"
+                android:layout_height="wrap_content"
+                android:text="throw" />
+
+            <RadioButton
+                android:id="@+id/rbAnswerQ5b"
+                android:layout_width="178dp"
+                android:layout_height="wrap_content"
+                android:text="catch" />
+
+            <RadioButton
+                android:id="@+id/rbAnswerQ5c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="ride" />
+
+        </RadioGroup>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Submit"
+            android:onClick="submit"/>
+
+    </LinearLayout>
+</ScrollView>

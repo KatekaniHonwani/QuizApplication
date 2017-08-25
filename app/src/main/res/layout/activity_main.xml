@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context="com.example.codetribestudent.quizapplication.MainActivity"
+    android:background="@drawable/quiz2"
+    >
+
+
+
+
+    <Button
+        android:id="@+id/btnPolitics"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="politics"
+        android:text="Politics"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/btnEntertainment"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="entertainment"
+        android:text="Entertainment"
+        android:layout_marginBottom="12dp"
+        android:layout_above="@+id/btnPolitics"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/btnSport"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="sport"
+        android:text="Sport"
+        android:layout_marginBottom="19dp"
+        android:layout_above="@+id/btnEntertainment"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
